@@ -20,6 +20,6 @@ Human Convergence Robotics
 
 # <진행 상황>
 # ![image](https://user-images.githubusercontent.com/101317154/165744749-3b8387e0-8867-404d-9c96-b290004674be.png)
-#![화면 캡처 2022-05-12 212005](https://user-images.githubusercontent.com/101317154/168073293-c7a1c000-2b90-4604-8e38-fff9eb123e33.png)
-#![화면 캡처 2022-05-19 161345](https://user-images.githubusercontent.com/101317154/169233565-604289a6-d6f7-43c2-91e0-1304a8b23f4b.png)
+# ![화면 캡처 2022-05-12 212005](https://user-images.githubusercontent.com/101317154/168073293-c7a1c000-2b90-4604-8e38-fff9eb123e33.png)
+# ![화면 캡처 2022-05-19 161345](https://user-images.githubusercontent.com/101317154/169233565-604289a6-d6f7-43c2-91e0-1304a8b23f4b.png)
 
