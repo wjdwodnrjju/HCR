@@ -14,10 +14,6 @@ Human Convergence Robotics
 # 2.함수 구현
 # 3.키보드 입력 구현
 
-# <역할 분담>
-# 계산기 인터스페이스 구현, 키보드 입력 구현: 정재욱
-# 함수구현 : 홍은주
-
 # <진행 상황>
 # ![image](https://user-images.githubusercontent.com/101317154/165744749-3b8387e0-8867-404d-9c96-b290004674be.png)
 # ![화면 캡처 2022-05-12 212005](https://user-images.githubusercontent.com/101317154/168073293-c7a1c000-2b90-4604-8e38-fff9eb123e33.png)
