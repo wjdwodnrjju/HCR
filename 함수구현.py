@@ -1,55 +1,6 @@
 from tkinter import *
 from tkinter import ttk
  
-<<<<<<< HEAD
-operation = ''  
-temp_number = 0
-answer_trigger = False
- 
-def button_pressed(value):
-    global operation
-    global answer_trigger
-    if value=='AC':
-        number_entry.delete(0,'end')
-        operation = ''
-        answer_trigger = False
-        print("AC pressed")
-    else:
-        if answer_trigger:
-            number_entry.delete(0,"end")
-            answer_trigger = False
-        number_entry.insert("end",value)
-        print(value,"pressed")
- 
-def float_filter(value):
-    try:
-        int(value)
-        return int(value)
-    except ValueError:
-        return float(value)
- 
-# 두값이 같으면 정수로 표현가능.==> 정수값으로 반환.
-def int_changer(value):
-    if int(value) == float(value):
-        return int(value)
-    else:
-        return float(value)
- 
-def math_button_pressed(value):
-    global operation 
-    global temp_number
-    global answer_trigger
-    if not number_entry.get() == '':
-        operation = value
-        temp_number = float_filter(number_entry.get())
-        number_entry.delete(0,'end')
-        print(temp_number,operation)
- 
-def equal_button_pressed():
-    global operation
-    global temp_number
-    global answer_trigger
-=======
 operation = ''  #연산자 저장 변수
 temp_number = 0  #이전값 저장 변수
  
@@ -78,7 +29,6 @@ def equal_button_pressed():
     global operation
     global temp_number
     #연산자나 숫자가 입력되지 않으면, 실행하지 않음.
->>>>>>> d3ce3654f2d10dbd998e7e8bc43efdaec824c163
     if not (operation =='' and number_entry.get()==''):
         number = int(number_entry.get())
         if operation == '/':
@@ -89,22 +39,12 @@ def equal_button_pressed():
             solution = temp_number+number
         else :
             solution = temp_number-number
-<<<<<<< HEAD
-             
-        #int_changer() 함수를 한번 거쳐서, 값저장.
-        solution = int_changer(solution)
-=======
         # 계산후, 숫자표시칸을 비우고, 계산결과를 표시.
->>>>>>> d3ce3654f2d10dbd998e7e8bc43efdaec824c163
         number_entry.delete(0,'end')
         number_entry.insert(0,solution)
         print(temp_number,operation,number,"=",solution)
         operation = ''
         temp_number = 0
-<<<<<<< HEAD
-        answer_trigger = True
-=======
->>>>>>> d3ce3654f2d10dbd998e7e8bc43efdaec824c163
          
      
 root = Tk()
