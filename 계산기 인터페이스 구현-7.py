@@ -13,7 +13,7 @@ def equal_button_pressed():
      
 root = Tk()
 root.title("Calculator")
-root.geometry("300x200")  # 화면폭에 맞춰서 늘려줌.
+root.geometry("300x200")  
  
 entry_value = StringVar(root, value='')
  
